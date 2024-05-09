@@ -1,8 +1,7 @@
-package java.APIKey;
+package APIKey;
 
 import org.testng.annotations.Test;
-
-import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.*;
 
 //endpoint: https://l9njuzrhf3.execute-api.eu-west-1.amazonaws.com/prod/user
 //        ApiKey in Key ve Values i  vardır
